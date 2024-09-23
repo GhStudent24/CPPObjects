@@ -54,6 +54,10 @@ void Person::setSSN(long ssn) {
     Person::ssn = ssn;
 }
 
+int Person::getInventory(){
+    return numPersons
+}
+
 ostream &operator<<(ostream &os, const Person &person) {
     os << "name: " << person.name << " age: " << person.age << " ssn: " << person.ssn;
     return os;
