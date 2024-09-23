@@ -6,6 +6,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+int Person::numPersons = 0;
 
 bool Person::isMinor() {
     return (age < 18);
