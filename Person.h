@@ -16,6 +16,7 @@ private:
     long ssn;
     static int numPersons;
 public:
+    ~Person();
     Person();
     Person(string, int);
     void setName(string);
