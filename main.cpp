@@ -8,7 +8,7 @@ int main() {
 
     Person one;
     Person two("Sue",52);
-    cout<<"I have "<<Person::getInventory(Persons);
+    cout<<"I have "<<Person::getInventory()<<" persons" << endl;
     //vector<int> grades = {85, 92,77,99,80};
 
     one.printMe();
