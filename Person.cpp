@@ -57,9 +57,12 @@ ostream &operator<<(ostream &os, const Person &person) {
     os << "name: " << person.name << " age: " << person.age << " ssn: " << person.ssn;
     return os;
 }
+/*
 ostream &operator<<(ostream &os,const vector<int> &myGrades) {
     for (int i = 0; i < myGrades.size(); i++){
         os << myGrades.at(i) << endl;
     }
+
     return os;
+*/
 }
