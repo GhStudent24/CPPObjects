@@ -27,7 +27,7 @@ public:
     bool isMinor();
     long getSSN() const;
     void setSSN(long ssn);
-    int getInventory();
+    static int getInventory();
     friend ostream &operator<<(ostream &os, const vector<int>&);
 
     friend ostream &operator<<(ostream &os, const Person &person);
