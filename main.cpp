@@ -9,7 +9,7 @@ int main() {
     Person one;
     Person two("Sue",52);
     cout<<"I have "<<Person::getInventory(Persons);
-    vector<int> grades = {85, 92,77,99,80};
+    //vector<int> grades = {85, 92,77,99,80};
 
     one.printMe();
     two.printMe();
