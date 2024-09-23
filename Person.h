@@ -14,6 +14,7 @@ private:
     string name;
     int age;
     long ssn;
+    static int numPersons;
 public:
     Person();
     Person(string, int);
